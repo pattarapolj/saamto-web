@@ -5,11 +5,94 @@ export type Project = {
     images: string[];
     description?: string;
     location?: string;
+    area?: string;
+    year?: string;
+    scope?: string;
 };
 
 const image = (name: string) => `/images/${name}`;
 
 export const projects: Project[] = [
+    {
+        slug: "lumpini-raminthra",
+        title: "Lumpini Raminthra",
+        category: "Residential/Condo",
+        area: "35 sqm.",
+        location: "Bangkok, Thailand",
+        year: "2026",
+        scope: "Interior Design & Build",
+        images: [image("lumpini-raminthra-01.jpg"), image("lumpini-raminthra-02.jpg"), image("lumpini-raminthra-03.jpg"), image("lumpini-raminthra-04.jpg"), image("lumpini-raminthra-05.jpg")],
+    },
+    {
+        slug: "baansiri-sukhumvit-10",
+        title: "Baansiri Sukhumvit 10",
+        category: "Residential/Condo",
+        area: "60 sqm.",
+        location: "Bangkok, Thailand",
+        year: "2026",
+        scope: "Interior Design & Build",
+        images: [image("baansiri-sukhumvit-10-01.jpg"), image("baansiri-sukhumvit-10-02.jpg"), image("baansiri-sukhumvit-10-03.jpg"), image("baansiri-sukhumvit-10-04.jpg"), image("baansiri-sukhumvit-10-05.jpg")],
+    },
+    {
+        slug: "unilever-office-design",
+        title: "Unilever Office Design (Bidding)",
+        category: "Corporate",
+        area: "700 sqm.",
+        location: "Bangkok, Thailand",
+        year: "2026",
+        scope: "Interior Design (Bidding Only)",
+        images: [image("unilever-office-01.png"), image("unilever-office-02.png"), image("unilever-office-03.jpg"), image("unilever-office-04.jpg")],
+    },
+    {
+        slug: "varinda-office",
+        title: "Varinda Office",
+        category: "Corporate",
+        area: "1,675 sqm.",
+        location: "Bangkok, Thailand",
+        year: "2026",
+        scope: "Architectural and Interior Design",
+        images: [image("varinda-office-02.jpg"), image("varinda-office-01.jpg"), image("varinda-office-03.jpg"), image("varinda-office-04.jpg"), image("varinda-office-05.jpg"), image("varinda-office-06.jpg"), image("varinda-office-07.png")],
+    },
+    {
+        slug: "denim-jatujak",
+        title: "Denim Jatujak",
+        category: "Residential/Condo",
+        area: "25 sqm.",
+        location: "Bangkok, Thailand",
+        year: "2026",
+        scope: "Interior Design & Build",
+        images: [image("denim-jatujak-01.jpg"), image("denim-jatujak-02.png"), image("denim-jatujak-03.png")],
+    },
+    {
+        slug: "sense-of-relax-eco-park",
+        title: "Sense of Relax, Eco Park",
+        category: "Retail",
+        area: "40 sqm.",
+        location: "Bangkok, Thailand",
+        year: "2026",
+        scope: "Interior Design & Build",
+        images: [image("sense-of-relax-eco-park-01.jpg"), image("sense-of-relax-eco-park-02.jpg"), image("sense-of-relax-eco-park-03.png")],
+    },
+    {
+        slug: "3506-ideo-rama9",
+        title: "3506 Ideo Rama9",
+        category: "Residential/Condo",
+        area: "55 sqm.",
+        location: "Bangkok, Thailand",
+        year: "2026",
+        scope: "Interior Design & Build",
+        images: [image("3506-ideo-rama9-01.jpg"), image("3506-ideo-rama9-02.jpg"), image("3506-ideo-rama9-03.jpg"), image("3506-ideo-rama9-04.jpg"), image("3506-ideo-rama9-05.jpg")],
+    },
+    {
+        slug: "grand-pleno-viphavadi-rangsit",
+        title: "Grand pleno - Viphavadi Rangsit",
+        category: "Residential/ Single Detached House",
+        area: "60 sqm.",
+        location: "Bangkok, Thailand",
+        year: "2026",
+        scope: "Interior Design & Build",
+        images: [image("grand-pleno-viphavadi-rangsit-05.jpg"), image("grand-pleno-viphavadi-rangsit-01.jpg"), image("grand-pleno-viphavadi-rangsit-02.jpg"), image("grand-pleno-viphavadi-rangsit-03.jpg"), image("grand-pleno-viphavadi-rangsit-04.jpg")],
+    },
     {
         slug: "lakewood-house",
         title: "Lakewood House",
