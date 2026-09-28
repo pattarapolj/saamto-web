@@ -9,7 +9,7 @@ const featuredSelections = [
     { slug: "grand-pleno-viphavadi-rangsit", imageIndex: 2 },
     { slug: "baansiri-sukhumvit-10", imageIndex: 2 },
     { slug: "whizdom", imageIndex: 0 },
-    { slug: "varinda-office", imageIndex: 4 },
+    { slug: "lakewood-house", imageIndex: 3 },
 ];
 
 const featured = featuredSelections.map(({ slug, imageIndex }) => {
