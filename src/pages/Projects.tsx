@@ -47,7 +47,7 @@ export default function Projects() {
                                         className="project-list__arrow"
                                         aria-hidden="true"
                                     >
-                                        ↗
+                                        ↗︎
                                     </span>
                                 </Link>
                             </li>

@@ -75,7 +75,7 @@ export default function ProjectDetail() {
                     >
                         <span>Next project</span>
                         <strong>{next.title}</strong>
-                        <span aria-hidden="true">↗</span>
+                        <span aria-hidden="true">↗︎</span>
                     </Link>
                 </div>
             </div>

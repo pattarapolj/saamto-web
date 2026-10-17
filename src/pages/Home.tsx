@@ -54,7 +54,7 @@ export default function Home() {
                 <span className="eyebrow">Interior design & build</span>
                 <Link to={`/projects/${featured[active].project.slug}`}>
                     {featured[active].project.title}
-                    <span aria-hidden="true"> ↗</span>
+                    <span aria-hidden="true"> ↗︎</span>
                 </Link>
             </div>
             <div className="home__controls" aria-label="Featured projects">

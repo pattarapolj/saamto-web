@@ -48,14 +48,14 @@ export default function Contact() {
                                     target="_blank"
                                     rel="noreferrer"
                                 >
-                                    Instagram ↗
+                                    Instagram ↗︎
                                 </a>
                                 <a
                                     href="https://www.facebook.com/saamtospace"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
-                                    Facebook ↗
+                                    Facebook ↗︎
                                 </a>
                             </dd>
                         </div>
@@ -65,7 +65,7 @@ export default function Contact() {
                         href="mailto:12saamto@saamto.com?subject=Project%20enquiry"
                     >
                         Tell us about your project{" "}
-                        <span aria-hidden="true">↗</span>
+                        <span aria-hidden="true">↗︎</span>
                     </a>
                 </div>
             </div>
